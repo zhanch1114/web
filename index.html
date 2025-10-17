@@ -1,8 +1,8 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/web/pokemon.png" />
+    <link rel="icon" type="image/svg+xml" href="/pokemon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>詹承翰 | 個人網站</title>
     <script type="module" crossorigin src="/web/assets/index-BQMdx7dE.js"></script>
@@ -10,5 +10,26 @@
   </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html> -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/web/pokemon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>詹承翰 | 個人網站</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- 自動跳到首頁 hash -->
+    <script>
+      if (!window.location.hash) {
+        window.location.replace(window.location.href + '#/');
+      }
+    </script>
+
   </body>
 </html>
