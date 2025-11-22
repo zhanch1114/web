@@ -16,8 +16,8 @@ function Projects() {
         {/* 專案一：海洋箱網養殖智慧監控系統 */}
         <div className="project-card">
           <div className="project-images">
-            <img src="/project-ocean-1.png" alt="海洋箱網養殖系統 1" />
-            <img src="/海洋計畫圖片2.jpg" alt="海洋箱網養殖系統 2" />
+            <img src="/web/project-ocean-1.png" alt="海洋箱網養殖系統 1" />
+            <img src="/web/海洋計畫圖片2.jpg" alt="海洋箱網養殖系統 2" />
           </div>
           <div className="project-content">
             <h3>海洋箱網養殖智慧監控系統</h3>
@@ -51,8 +51,8 @@ function Projects() {
         {/* 專案二：憂鬱症預測與評估系統 */}
         <div className="project-card">
           <div className="project-images">
-            <img src="/emo01.png" alt="憂鬱症預測系統 1" />
-            <img src="/emo02.png" alt="憂鬱症預測系統 2" />
+            <img src="/web/emo01.png" alt="憂鬱症預測系統 1" />
+            <img src="/web/emo02.png" alt="憂鬱症預測系統 2" />
           </div>
           <div className="project-content">
             <h3>憂鬱症預測與評估系統</h3>

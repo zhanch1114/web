@@ -77,7 +77,7 @@ function Resume() {
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <p className="company">2024國際黑客松</p>
             <button 
-              onClick={() => openModal('/hackathon2024.png')}
+              onClick={() => openModal(`${import.meta.env.BASE_URL}hackathon2024.png`)}
               style={{
                 padding: '8px 16px',
                 background: '#8b7355',
@@ -100,7 +100,7 @@ function Resume() {
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <p className="company">2022 AI CUP 春季賽 - 前標成績</p>
             <button 
-              onClick={() => openModal('/AICUP.png')}
+              onClick={() => openModal(`${import.meta.env.BASE_URL}AICUP.png`)}
               style={{
                 padding: '8px 16px',
                 background: '#8b7355',
@@ -120,7 +120,7 @@ function Resume() {
         </div>
       </div>
 
-      {/* Modal 彈出視窗 */}
+      {/* Modal */}
       {showModal && (
         <div 
           onClick={closeModal}

@@ -19,11 +19,10 @@ function Skills() {
           <div className="skill-content">
             <h3 className="skill-item-title">程式語言</h3>
             <p className="skill-item-desc">
-              具備多種程式語言相關開發經驗
+              碩士期間主要使用 Python，也具有其他語言的開發經驗。
             </p>
             <div className="skill-item-tags">
               <span className="skill-tag">Python</span>
-              <span className="skill-tag">JavaScript</span>
               <span className="skill-tag">Java</span>
               <span className="skill-tag">C/C++</span>
             </div>
@@ -51,7 +50,7 @@ function Skills() {
         <div className="skill-item">
           <div className="skill-progress-bar"></div>
           <div className="skill-content">
-            <h3 className="skill-item-title">前端技術</h3>
+            <h3 className="skill-item-title">網頁開發</h3>
             <p className="skill-item-desc">
               能開發響應式網頁與單頁應用，重視使用者體驗
             </p>

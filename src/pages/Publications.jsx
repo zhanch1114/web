@@ -21,26 +21,27 @@ function Publications() {
       
       <div className="publication-list">
         
-        {/* CACS 2025 - 進行中 */}
-        <div className="publication-item" style={{ border: '2px solid #d4af37' }}>
+        {/* CACS 2025 */}
+        <div className="publication-item">
           <div className="pub-header">
-            <div>
-              <h3 style={{ color: '#d4af37' }}>
-                Exploring Deep Learning for Significant Wave Height Prediction: 
-A Case Study of Qimei Buoy 
+            <div style={{ flex: 1 }}>
+              <h3>
+                Exploring Deep Learning for Significant Wave Height Prediction: A Case Study of Qimei Buoy
               </h3>
+              <p className="pub-authors">
+                C.-H. Zhan, Y.-S. Chang, J.-H. Chen, B.-X. Huang
+              </p>
               <p className="pub-venue">
                 2025 International Automatic Control Conference (CACS)
               </p>
-              <p className="pub-info">📅 November 2025 | 📍 Taiwan</p>
-              <p className="pub-status" style={{ 
-                color: '#d4af37', 
-                fontWeight: 'bold',
-                marginTop: '10px' 
-              }}>
-                ⏳ 進行中 (In Progress)
-              </p>
+              <p className="pub-info">📅 November 5-8, 2025 | 📍 Hsinchu, Taiwan</p>
             </div>
+            <button 
+              onClick={() => openModal('/web/2025CACS.png')}
+              className="cert-button"
+            >
+              📜 查看證書
+            </button>
           </div>
         </div>
 
@@ -60,7 +61,7 @@ A Case Study of Qimei Buoy
               <p className="pub-info">📅 August 9-13, 2025 | 📍 Thailand</p>
             </div>
             <button 
-              onClick={() => openModal('/icsse202501.jpg')}
+              onClick={() => openModal('/web/icsse202501.jpg')}
               className="cert-button"
             >
               📜 查看證書
@@ -84,7 +85,7 @@ A Case Study of Qimei Buoy
               <p className="pub-info">📅 August 9-13, 2025 | 📍 Thailand</p>
             </div>
             <button 
-              onClick={() => openModal('/icsse202502.jpg')}
+              onClick={() => openModal('/web/icsse202502.jpg')}
               className="cert-button"
             >
               📜 查看證書
@@ -108,7 +109,7 @@ A Case Study of Qimei Buoy
               <p className="pub-info">📅 July 2025 | 📍 Taiwan</p>
             </div>
             <button 
-              onClick={() => openModal('/TWSC2.png')}
+              onClick={() => openModal('/web/TWSC2.png')}
               className="cert-button"
             >
               📜 查看證書
@@ -160,7 +161,7 @@ A Case Study of Qimei Buoy
               </p>
             </div>
             <button 
-              onClick={() => openModal('/smc2024.png')}
+              onClick={() => openModal('/web/smc2024.png')}
               className="cert-button"
             >
               📜 查看證書
